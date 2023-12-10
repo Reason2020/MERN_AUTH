@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #010607;
+  color: #fff;
+  padding: 2.5rem 3rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.navbar > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar > .logout_btn {
+  background-color: #fff;
+  color: #010607;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.form_container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.success_message {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: aquamarine;
+  border: 1px solid green;
+  padding: 8px;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.error_message {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: coral;
+  border: 1px solid red;
+  padding: 8px;
+  width: fit-content;
+  border-radius: 6px;
+}
+
+.success_message > p, .error_message > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+
+
+.form_container > h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #010607;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form_container > .form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form_container > .form > * {
+  width: 100%;
+  border: 1.5px solid #010607;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.form_container > .form > input {
+  font-size: 18px;
+  color: #010607;
+  font-weight: 500;
+}
+
+.form_container > .form > input::placeholder {
+  color: #999;
+}
+
+.form_container > .form > .form_action_btn {
+  background-color: #010607;
+  color: #fff;
+  font-size: 18px;
+}
